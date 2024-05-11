@@ -1,0 +1,49 @@
+.main {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(197, 152, 197);
+}
+
+.name,
+.sub {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.header.name {
+     font-size: 50px;
+    color: navajowhite;
+}
+
+em{
+    color: blue;
+}
+
+strong {
+    font-weight: 900;
+    color: black;
+}
+
+.recipe {
+    font-size: 25px;
+}
+
+.unit {
+    background-color: white;
+    color: red;
+}
+
+.unit#uno {
+    font-weight: 600;
+}
+
+.image.one {
+    text-align: center;
+    width
+}
+
+.image.two {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
