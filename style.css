@@ -19,7 +19,8 @@ em{
     color: blue;
 }
 
-strong {
+strong,
+b {
     font-weight: 900;
     color: black;
 }
@@ -39,11 +40,16 @@ strong {
 
 .image.one {
     text-align: center;
-    width
+}
+
+.image.one img {
+    height: 500px;
+    width: 600px;
 }
 
 .image.two {
     display: block;
     margin: 0 auto;
     width: 40%;
+    height: auto;
 }
