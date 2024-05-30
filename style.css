@@ -1,6 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .main {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(197, 152, 197);
+}
+
+.main-container {
+    padding: 20px;
 }
 
 .name,
@@ -11,11 +26,29 @@
 
 
 .header.name {
-     font-size: 50px;
+    font-size: 50px;
     color: navajowhite;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
-em{
+.one,
+.two,
+.three {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+}
+
+.recipe {
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+
+em {
     color: blue;
 }
 
@@ -25,9 +58,6 @@ b {
     color: black;
 }
 
-.recipe {
-    font-size: 25px;
-}
 
 .unit {
     background-color: white;
@@ -38,18 +68,3 @@ b {
     font-weight: 600;
 }
 
-.image.one {
-    text-align: center;
-}
-
-.image.one img {
-    height: 500px;
-    width: 600px;
-}
-
-.image.two {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-    height: auto;
-}
