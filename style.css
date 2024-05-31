@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
-.main {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(197, 152, 197);
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    padding: 5px;
 }
 
 .main-container {
@@ -24,12 +26,59 @@
     text-decoration: underline;
 }
 
-
 .header.name {
     font-size: 50px;
-    color: navajowhite;
+    color: black;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: inline-block;
+    font-size: 30px;
+    /* border: 2px solid purple; */
+    background-color: rgb(226, 223, 223);
+    padding: 5px;
+}
+
+.big-box {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.box.las {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.box.alu {
+    margin-bottom: 50px;
+}
+
+.box.pan {
+    display: block;
+    width: 410px;
+    margin: 0 auto;
+}
+
+.box img {
+    width: 400px;
+    height: 300px;
+}
+
+.link {
+    display: block;
+    width: 55%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+em {
+    color: black;
 }
 
 .one,
@@ -39,17 +88,7 @@
     margin: 0 auto;
     width: 600px;
     height: auto;
-}
-
-.recipe {
-    display: inline-block;
-    font-size: 25px;
-}
-
-
-
-em {
-    color: blue;
+    border: 2px solid purple;
 }
 
 strong,
