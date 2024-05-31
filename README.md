@@ -12,5 +12,6 @@ objectives are:
 1. Practice writing broilerplate HTML.
 2. Get familiar with links and images.
 3. Use basic git add, commit and other git commands to get familiar with them.
-4. Write good commits and make of habit of it. (but obviously, I will get there someday xD)
-5. Practice! Practice! Practice!
+4. Use display and box-sizing to change how elements behave in the webpage.
+5. Write good commits and make of habit of it. (but obviously, I will get there someday xD)
+6. Practice! Practice! Practice!
